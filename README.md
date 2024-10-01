@@ -7,4 +7,4 @@ Laboratorio - 01
 
 * Wilson Camilo Garces Zuñiga 2310105-3743 <a href="mailto::garces.wilson@correounivalle.edu.co">garces.wilson@correounivalle.edu.co</a>
 
-María Alejandra Carvajal 2178495-3743 <a href="mailto::maria.alejandra.carvajal@correounivalle.edu.co">maria.alejandra.carvajal@correounivalle.edu.co<a>
+* María Alejandra Carvajal 2178495-3743 <a href="mailto::maria.alejandra.carvajal@correounivalle.edu.co">maria.alejandra.carvajal@correounivalle.edu.co<a>
