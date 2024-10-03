@@ -11,7 +11,6 @@ int main() {
     double avg_val;
     int sum = 0;
 
-    // Initialize the array with random numbers
     #pragma omp parallel num_threads(NUMHILO)
     {
         int thread_num = omp_get_thread_num();
@@ -19,11 +18,10 @@ int main() {
         int fin =  (25 * (thread_num + 1)) - 1;
         printf("Hola desde el hilo %d me encargo de los valores de %d hasta %d\n", thread_num , inicio , fin);
         for (int i = inicio; i < fin; i++) {
-            array[i] = rand() % 1000; // Random numbers between 0 and 999
+            array[i] = rand() % 1000;
         }
     }
 
-    // Find the max, min, and average values
     max_val = array[0];
     min_val = array[0];
 
